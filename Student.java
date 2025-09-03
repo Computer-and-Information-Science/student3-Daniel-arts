@@ -28,7 +28,7 @@ public void setGpa(double newGpa){
 
 //other member functions (methods here)
     public void displaystudent(){
-        System.out.printIn("the student "+ this.name + " has the id of "+ this.id + " and has a GPA of " this.gpa + ".");
+        System.out.println("the student "+ this.name + " has the id of "+ this.id + " and has a GPA of "+ this.gpa + ".");
     }
 
 
@@ -37,12 +37,12 @@ public void setGpa(double newGpa){
 Student student1 = new Student("Bob",1,3.5);
 Student student2 = new Student("Sally",2,3.5);
 //call the displayStudent method here
-        student1.displaystudent()
-        student1.setGpa(6.0)
+        student1.displaystudent();
+        student1.setGpa(6.0);
 
-        student2.displaystudent()
-        student2.setGpa(6.0)
+        student2.displaystudent();
+        student2.setGpa(6.0);
 
-System.out.printIn(student1.get)
+// System.out.printIn(student1.get)
     }
 }
